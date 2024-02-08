@@ -20,8 +20,8 @@ thifts = False
 bahsees = False
 
 ZelzalCoins_cmd = (
-    "[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗥َِ𝗲َِ𝗙َِ𝘇 - اوامـر تجميـع النقـاط](t.me/def_Zoka) 𓆪\n\n"
-    "**⎉╎قـائمـة اوامـر تجميـع نقـاط بوتـات تمـويـل الخاص بسـورس تيبثــون🦾 :** \n\n"
+    "[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 ᴠᴇɢᴀ - اوامـر تجميـع النقـاط](t.me/VeGaSouRce) 𓆪\n\n"
+    "**⎉╎قـائمـة اوامـر تجميـع نقـاط بوتـات تمـويـل الخاص بسـورس فيجا🦾 :** \n\n"
     "`.المليار`\n"
     "**⪼ لـ تجميـع النقـاط مـن بـوت المليـار ( @EEOBot ) .. تلقـائيـاً ✓**\n\n"
     "`.العرب`\n"
@@ -70,7 +70,7 @@ ZelzalCoins_cmd = (
     "**⪼ مثــال :**\n"
     "`.راتب وعد 50`\n\n\n"
     "**- مـلاحظــه :**\n"
-    "**⪼ سيتم اضـافـه المزيـد من البوتـات بالتحديثـات الجايـه .. اذا تريـد اضافـة بـوت محـدد راسـل مطـور السـورس @IC_X_K**"
+    "**⪼ سيتم اضـافـه المزيـد من البوتـات بالتحديثـات الجايـه .. اذا تريـد اضافـة بـوت محـدد راسـل مطـور السـورس @O_m_xl**"
 )
 
 @zedub.zed_cmd(pattern="بوت المليار$")
@@ -98,7 +98,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -112,7 +112,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@EEOBot', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -144,7 +144,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -158,7 +158,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@xnsex21bot', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -200,7 +200,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -214,7 +214,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages(zpoint, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -247,7 +247,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -261,7 +261,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@A_MAN9300BOT', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -294,7 +294,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -308,7 +308,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@MARKTEBOT', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -341,7 +341,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -355,7 +355,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@qweqwe1919bot', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -391,7 +391,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -405,7 +405,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@SMSMWAbot', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -438,7 +438,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         url = msgs.reply_markup.rows[0].buttons[0].url
@@ -452,7 +452,7 @@ async def _(event):
             await msg2[0].click(text='تحقق')
             chs += 1
             await event.edit(f"**⎉╎تم الاشتـراك في القنـاة  {chs} ...✓**")
-        except: #Code by T.me/IC_X_K
+        except: #Code by T.me/O_m_xl
             msg2 = await zedub.get_messages('@Ncoe_bot', limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -485,7 +485,7 @@ async def _(event):
         if msgs.message.find('**⎉╎لا يوجد قنوات في الوقت الحالي .. قم يتجميع النقاط بطريقه مختلفه**') != -1:
             await zedub.send_message(event.chat_id, "**⎉╎مـافي قنـوات بالبـوت حاليـاً ...**")
             break
-        if con == "ايقاف": #Code by T.me/IC_X_K
+        if con == "ايقاف": #Code by T.me/O_m_xl
             await zedub.send_message(event.chat_id, "**⎉╎تم إيقـاف تجميـع النقـاط .. بنجـاح☑️**")
             break
         msg_text = msgs.message

@@ -9,7 +9,7 @@ plugin_category = "الترفيه"
 
 # بلاي 
 M = (
-    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 𝐑𝐄𝐅𝐙   **العـاب الاونلايـن** 🎮𓆪 \n"
+    "**𓆰**  𝙎𝙊𝙐𝙍𝘾𝙀 ᴠᴇɢᴀ   **العـاب الاونلايـن** 🎮𓆪 \n"
     "◐━─━─━─━──━─━─━─━◐\n\n"
     "  ❶ **⪼**  [حرب الفضاء 🛸](https://t.me/gamee?game=ATARIAsteroids)   \n"
     "  ❷ **⪼**  [لعبة فلابي بيرد 🐥](https://t.me/awesomebot?game=FlappyBird)   \n"
@@ -30,8 +30,8 @@ M = (
     "  ⓱ **⪼**  [جيت واي 🚨](https://t.me/gamee?game=Getaway)   \n"
     "  ⓲ **⪼**  [الالـوان 🔮](https://t.me/gamee?game=ColorHit)   \n"
     "  ⓳ **⪼**  [مدفع الكرات🏮](https://t.me/gamee?game=NeonBlaster)   \n\n\n"
-    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [يوسف](t.me/IC_X_K)   \n"
-    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [𝐑𝐄𝐅𝐙 ](https://t.me/def_Zoka)  "
+    "**𓄂-** 𝙎𝙊𝙐𝙍𝘾𝙀 𝘿𝙀𝙑 **⪼**  [محمد](t.me/O_m_xl)   \n"
+    "**𓆰** 𝙎𝙊𝙐𝙍𝘾𝙀 𝙍𝙀𝙋𝙊 **⪼**  [ᴠᴇɢᴀ ](https://t.me/VeGaSouRce)  "
 )
 
 
@@ -39,7 +39,7 @@ M = (
     pattern="بلاي$",
     command=("بلاي", plugin_category),
     info={
-        "header": "العـاب الانـلاين لـ سـورس ريفز",
+        "header": "العـاب الانـلاين لـ سـورس فيجاز",
         "الاستـخـدام": "{tr}بلاي",
     },
 )

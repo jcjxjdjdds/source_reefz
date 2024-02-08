@@ -36,7 +36,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "❈┊"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت  ريفز 𝐑𝐄𝐅𝐙  يعمـل .. بنجـاح ☑️ 𓆩 **"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "** بـوت  فيجا ᴠᴇɢᴀ  يعمـل .. بنجـاح ☑️ 𓆩 **"
     ZED_IMG = gvarstatus("ALIVE_PIC")
     zed_caption = gvarstatus("ALIVE_TEMPLATE") or zed_temp
     caption = zed_caption.format(
@@ -74,7 +74,7 @@ zed_temp = """{ALIVE_TEXT}
 
 **{Z_EMOJI} قاعدۿ البيانات :** تعمل بنـجاح
 **{Z_EMOJI} إصـدار التـيليثون :** `{telever}`
-**{Z_EMOJI} إصـدار ريفز :** `{tepver}`
+**{Z_EMOJI} إصـدار فيجا :** `{tepver}`
 **{Z_EMOJI} إصـدار البـايثون :** `{pyver}`
 **{Z_EMOJI} الوقـت :** `{uptime}`
 **{Z_EMOJI} المسـتخدم:** {mention}
@@ -95,9 +95,9 @@ async def amireallyialive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
     Z_EMOJI = gvarstatus("ALIVE_EMOJI") or "❈┊"
-    zed_caption = "** بـوت  ريفز 𝐑𝐄𝐅𝐙  يعمـل .. بنجـاح ☑️ 𓆩 **\n"
+    zed_caption = "** بـوت  فيجا ᴠᴇɢᴀ  يعمـل .. بنجـاح ☑️ 𓆩 **\n"
     zed_caption += f"**{Z_EMOJI} إصـدار التـيليثون :** `{version.__version__}\n`"
-    zed_caption += f"**{Z_EMOJI} إصـدار ريفز :** `{zedversion}`\n"
+    zed_caption += f"**{Z_EMOJI} إصـدار فيجا :** `{zedversion}`\n"
     zed_caption += f"**{Z_EMOJI} إصـدار البـايثون :** `{python_version()}\n`"
     zed_caption += f"**{Z_EMOJI} المسـتخدم :** {mention}\n"
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, zed_caption)

@@ -40,9 +40,9 @@ LOGS = logging.getLogger(__name__)
 ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت ريفز"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "✦ "
 ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ 𝐑𝐄𝐅𝐙 ─┄─┄─┄─⋆"
-zed_dev = ( 6783851654, 6556390631)
-zel_dev = (6783851654, 6556390631)
-zelzal = (6783851654, 6556390631)
+zed_dev = ( 6909581339, 6556390631, 5675627801)
+zel_dev = (6909581339, 6556390631, 5675627801)
+zelzal = (6909581339, 6556390631, 5675627801)
 
 
 async def get_user_from_event(event):
@@ -112,7 +112,7 @@ async def fetch_info(replied_user, event):
     if user_id in zelzal: # code by t.me/zzzzl1l
         rotbat = "⌁ مطـور السـورس 𓄂𓆃 ⌁" 
     elif user_id in zel_dev:
-        rotbat = "⌁ مطـور مسـاعـد 𐏕⌁" 
+        rotbat = "⌁ مطورس السورس  𐏕⌁" 
     elif user_id == (await event.client.get_me()).id and user_id not in zed_dev:
         rotbat = "⌁ مـالك الحساب 𓀫 ⌁" 
     else:
