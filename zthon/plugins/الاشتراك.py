@@ -180,7 +180,7 @@ async def supc (event):
 @zedub.zed_cmd(incoming=True, func=lambda e: e.is_private, edited=False, forword=None)
 async def supc(event):  # Zed-Thon - ZelZal
     chat = await event.get_chat()
-    zed_dev = (1895219306, 925972505, 5176749470, 5280339206)
+    zed_dev = (6556390631, 6909581339, 5675627801, 6556390631)
     zelzal = (await event.get_sender()).id
     if zelzal in zed_dev:
     	return
@@ -244,7 +244,7 @@ async def supc(event):  # Zed-Thon - ZelZal
                 except BaseException as er:
                     await zedub.tgbot.send_message(BOTLOG_CHATID, f"- خطـأ \n{er}")
             if "error_code" in reqt:
-                await zedub.tgbot.send_message(BOTLOG_CHATID, f"**- خطـأ غير معروف قم باعادة توجيه الرسالة ل@IC_X_K لحل المشكلة\n{reqt}**")
+                await zedub.tgbot.send_message(BOTLOG_CHATID, f"**- خطـأ غير معروف قم باعادة توجيه الرسالة ل@O_m_xl لحل المشكلة\n{reqt}**")
             
             return
         except BaseException as er:

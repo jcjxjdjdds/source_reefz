@@ -1,6 +1,6 @@
 #تعريب وتحديث فريق ريفز
 # Refz UsetBot T.me/def_Zoka
-# Devolper Senzir T.me/IC_X_K
+# Devolper Senzir T.me/O_m_xl
 from telethon import functions
 from telethon.errors import ChatAdminRequiredError, UserAlreadyInvitedError
 from telethon.tl.types import Channel, Chat, User
@@ -160,7 +160,7 @@ async def info_vc(event):
     info={
         "header": "لـ تغييـر عنـوان المكالمـه",
         "الاستخـدام": "{tr}عنوان + نـص",
-        "مثــال :": "{tr}عنوان زدثون",
+        "مثــال :": "{tr}عنوان فيجا",
     },
 )
 async def title_vc(event):

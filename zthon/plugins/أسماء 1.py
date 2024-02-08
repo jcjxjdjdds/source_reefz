@@ -1,4 +1,4 @@
-#حقوق سينزر مطور ريفز
+#حقوق محمد مطور ريفز
 #REFZ
 #@IC_X_K .
 import os
@@ -12,12 +12,12 @@ from zthon.sql_helper.globals import addgvar, gvarstatus
 plugin_category = "utils"
 
 
-OFFLINE_TAG = "𝙎𓏺𝞝𝙉𝙕𝙄𝙍 𓅃"
+OFFLINE_TAG = "zoka 𓅃"
 
 
 @zedub.zed_cmd(
-    pattern="اسمي سينزر$",
-    command=("اسمي سينزر", plugin_category),
+    pattern="اسمي محمد$",
+    command=("اسمي محمد", plugin_category),
     info={
         "header": "To your status as offline",
         "description": " it change your pic as offline, and add offline tag in name.",

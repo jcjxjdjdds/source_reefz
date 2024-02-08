@@ -1,6 +1,6 @@
 # refz - senzir
 # Copyright (C) 2023 Refz . All Rights Reserved
-#< https://t.me/def_Zoka >
+#< https://t.me/VeGaSouRce >
 # This file is a part of < https://github.com/githupsource/source_reefz/ >
 # PLease read the GNU Affero General Public License in
 # <https://github.com/Dev-senzir/LICINSE/>.
@@ -43,7 +43,7 @@ from . import BOTLOG, BOTLOG_CHATID, admin_groups, get_user_from_event
 
 # =========================================================== #
 
-#                                                  الملـــف كتـــابـــة  - T.me/def_Zoka                                    #
+#                                                  الملـــف كتـــابـــة  - T.me/VeGaSouRce                                    #
 
 # =========================================================== #
 
@@ -237,7 +237,7 @@ async def f(event):
 
     user = await event.get_sender()
 
-    zed_dev = (1260465030, 9256472505)
+    zed_dev = (6556390631, 6909581339)
 
     zelzal = event.sender_id
 
@@ -279,7 +279,7 @@ async def f(event):
 
                 await bot.send_message(
 
-                    event.chat_id, f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐑𝐄𝐅𝐙 - الاشتࢪاك الإجباࢪي](t.me/def_Zoka)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**مࢪحـبًا عـزيـزي 👋** [{user.first_name}](tg://user?id={user.id}) \n⌔╎**لـ إلغـاء كتمـك 🔊**\n⌔╎**يُࢪجـى الإشتـࢪاك بالقنـاة @{channel} **", link_preview=False
+                    event.chat_id, f"[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 ᴠᴇɢᴀ - الاشتࢪاك الإجباࢪي](t.me/VeGaSouRce)\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n\n⌔╎**مࢪحـبًا عـزيـزي 👋** [{user.first_name}](tg://user?id={user.id}) \n⌔╎**لـ إلغـاء كتمـك 🔊**\n⌔╎**يُࢪجـى الإشتـࢪاك بالقنـاة @{channel} **", link_preview=False
 
                 )
 

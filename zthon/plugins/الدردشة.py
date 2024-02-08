@@ -96,7 +96,7 @@ async def _(event):
 async def _(event):
     user = await event.get_sender()
     if user.id == 6556390631:
-        await event.reply(" هلا بك محمد مطوري\nقناة السورس:@def_Zoka")
+        await event.reply(" هلا بك محمد مطوري\nقناة السورس:@VeGaSouRce")
 
 
 @jmisbest.on(events.NewMessage(outgoing=False, pattern="^تحية"))

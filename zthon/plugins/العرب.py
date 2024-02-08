@@ -11,7 +11,7 @@ bot_username = '@xnsex21bot'
 tepthon = ['yes']
 
 
-@zedub.on(admin_cmd(pattern="(تجميع العرب|تجميع عرب)"))
+@zedub.on(admin_cmd(pattern="(تجميع فيجا|تجميع فيجا)"))
 async def _(event):
     if tepthon[0] == "yes":
         await event.edit("**❖︙سيتم تجميع النقاط , قبل كل شي تأكد من انك قمت بالانضمام الى القنوات الاشتراك الاجباري للبوت لعدم حدوث اخطاء**")
